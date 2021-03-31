@@ -1,0 +1,38 @@
+
+global restoreLock;
+if { $restoreLock != "restoreSets" } {
+	errormsg "Cannot restore a set file without restoreSets.";
+	return;
+};
+
+				# Variables in sliceParams
+setVersionVar autoMinWall 	{false} 1.0;
+setVersionVar doLocalFaceThickening 	{false} 1.0;
+setVersionVar generateUnifyingContour 	{false} 1.0;
+setVersionVar oldIntersectorNonSlicer 	{false} 1.0;
+setVersionVar oldSliceMergeMethod 	{false} 1.0;
+setVersionVar reqSliceBottom 	{0.007000} 1.0;
+setVersionVar reqSliceTop 	{0.846500} 1.0;
+setVersionVar silenceAnacondaWarnings 	{true} 1.0;
+setVersionVar sliceAutoClose 	{true} 1.0;
+setVersionVar sliceFilterTolerance 	{0.0004} 1.0;
+setVersionVar sliceHeight 	{0.007} 1.0;
+setVersionVar sliceNeverClose 	{false} 1.0;
+setVersionVar sliceOpenTolerance 	{0.005} 1.0;
+setVersionVar stlRotateX 	{-180.0} 1.0;
+setVersionVar stlRotateY 	{0.0} 1.0;
+setVersionVar stlRotateZ 	{-178.0} 1.0;
+setVersionVar stlSize 	{0.657300 0.353500 0.846500} 1.0;
+setVersionVar stlSurfaceArea 	{3.153961} 1.0;
+setVersionVar stlUnits 	{mm} 1.0;
+setVersionVar stlVolume 	{0.078053} 1.0;
+setVersionVar treatMultiMeshAsCellular 	{false} 1.0;
+setVersionVar unifyingContourThickness 	{0.040} 1.0;
+setVersionVar useAdaptiveSlice 	{false} 1.0;
+setVersionVar useNoPerimSparseFill 	{false} 1.0;
+setVersionVar useSMARTsupports 	{false} 1.0;
+setVersionVar useSliceBottom 	{false} 1.0;
+setVersionVar useSliceTop 	{false} 1.0;
+
+null " "
+

@@ -1,0 +1,47 @@
+session {5/16 10:06:42am > SB opened job C:/ProgramData/Stratasys/FDMControlCenter/11.8/jobs/SB390b4c9414d0888c6b49f53/Default.sjb.  Insight 11.8 (5034).}
+msg {10:06:43am > Read 1612 facets in 0:00 from "C:/Users/SB/Dropbox/Transponder/micro-transponder.STL"}
+msg {10:06:43am > STL comment: solid micro-transponder}
+msg {10:06:43am > Bounding box of this STL X, Y, Z:}
+msg {10:06:43am >       min = (0.0000, 0.0000, 0.0000)}
+msg {10:06:43am >       max = (16.5200, 8.5200, 21.5000)}
+msg {10:06:44am > Done loading STL file after 2 sec.}
+msg {10:06:54am > Done calculating orientations after 1 sec.}
+msg {10:07:09am > 	Slice height:	0.1778}
+msg {10:07:09am > Done slicing.}
+msg {10:07:09am > Supports removed}
+msg {10:07:09am > 	Support style:	SMART}
+msg {10:07:10am > Inspecting part curves}
+msg {10:07:10am > Generating supports}
+msg {10:07:10am > Done generating supports.}
+msg {10:07:11am > Done writing boundary curves.}
+msg {10:07:11am > Saved job:  C:/Users/SB/Dropbox/Transponder/ssys_micro-transponder/micro-transponder.sjb}
+msg {10:07:11am > 	Part fill style:	One contour /  rasters}
+msg {10:07:11am > 	Part interior style:	Sparse - high density}
+msg {10:07:11am > 	Contour width:	0.3556}
+msg {10:07:11am > 	Part raster width:	0.4064}
+msg {10:07:12am > Done generating toolpaths.}
+msg {10:07:13am > CMB moved to envelope center.}
+msg {10:07:13am > Toolpath Information}
+msg {10:07:13am > 	Est. build time:	21 min }
+msg {10:07:13am > 	Model material:	1.393 cm³}
+msg {10:07:13am > 	Support material:	0.277 cm³}
+msg {10:07:13am > Done writing CMB file after 1 sec.}
+msg {10:07:13am > Job Summary}
+msg {10:07:13am > 	Full job path:	C:/Users/SB/Dropbox/Transponder/ssys_micro-transponder/micro-transponder.sjb}
+msg {10:07:13am > 	Toolpath file name:	micro-transponder.cmb}
+msg {10:07:13am > 	Modeler:		Fortus 250mc}
+msg {10:07:13am > 	Est. build time:	21 min }
+msg {10:07:13am > 	Model material:	1.393 cm³,	T14,	ABS P430}
+msg {10:07:13am > 	Support material:	0.277 cm³,	T16,	ABS SR30}
+msg {10:07:13am > 	Slice height:	0.1778}
+msg {10:07:13am > 	Part fill style:	One contour /  rasters}
+msg {10:07:13am > 	Part interior style:	Sparse - high density}
+msg {10:07:13am > 	Visible surface style:	Enhanced}
+msg {10:07:13am > 	Support style:	SMART}
+msg {10:07:13am > 	Contour width:	0.5080}
+msg {10:07:13am > 	Number of contours:	6.3500}
+msg {10:07:13am > 	Part interior contours:	0.3556}
+msg {10:07:13am > 	Part raster width:	0.4064}
+msg {10:07:13am > 	Application:	Insight 11.8, Build version: 5034}
+msg {10:07:13am > Saved job:  C:/Users/SB/Dropbox/Transponder/ssys_micro-transponder/micro-transponder.sjb,  approximate build time 21 min }
+session {5/16 1:02:03pm > SB closed job.}

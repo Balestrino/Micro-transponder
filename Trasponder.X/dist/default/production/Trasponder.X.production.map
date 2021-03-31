@@ -1,0 +1,120 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Jul 05 18:59:31 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                    .code       code   0x000004    program   0x000002
+                MAIN_PROG       code   0x000005    program   0x0004f2
+                  DATAMAP       code   0x000700    program   0x0000ca
+.config_8007_BUILD/DEFAULT/PRODUCTION/RCHOURG       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/PRODUCTION/RCHOURG       code   0x008008    program   0x000002
+.config_8009_BUILD/DEFAULT/PRODUCTION/RCHOURG       code   0x008009    program   0x000002
+.config_800A_BUILD/DEFAULT/PRODUCTION/RCHOURG       code   0x00800a    program   0x000002
+         VARIABILI_BANKED      udata   0x000020       data   0x000007
+                   SH_MEM      udata   0x000070       data   0x00000e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00027d      
+                            0x000700    0x000764      
+                            0x008007    0x00800a      
+            742 out of 2313 program addresses used, program memory utilization is 32%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 COPYLOOP   0x0000aa    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+             COPYNEXTBYTE   0x0000ad    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                    DELAY   0x000258    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_0   0x00025d    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_L   0x000266    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_X   0x000268    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  ENDCOPY   0x0000b2    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 MAINLOOP   0x000064    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 Message1   0x000703    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+            PREPARESTATUS   0x000071    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+             Random_Delay   0x000262    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+              RecordBegin   0x000700    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                RecordEnd   0x000763    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+               RecordType   0x000702    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                   SENDID   0x0000c6    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                    SETUP   0x000005    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST2   0x000080    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST3   0x000087    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST4   0x00008e    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST5   0x000095    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST6   0x00009c    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST7   0x0000a3    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status1   0x00070f    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status2   0x00071b    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status3   0x000727    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status4   0x000733    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status5   0x00073f    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status6   0x00074b    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status7   0x000757    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+          _MAIN_PROG_0259   0x00025e    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+          _MAIN_PROG_025C   0x000261    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+               MessageRam   0x000070       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                       d1   0x000020       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                       d2   0x000021       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                     led1   0x000023       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                     led2   0x000024       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  packets   0x000025       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      rd1   0x000022       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 statusid   0x000026       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    SETUP   0x000005    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 MAINLOOP   0x000064    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+            PREPARESTATUS   0x000071    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST2   0x000080    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST3   0x000087    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST4   0x00008e    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST5   0x000095    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST6   0x00009c    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      ST7   0x0000a3    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 COPYLOOP   0x0000aa    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+             COPYNEXTBYTE   0x0000ad    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  ENDCOPY   0x0000b2    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                   SENDID   0x0000c6    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                    DELAY   0x000258    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_0   0x00025d    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+          _MAIN_PROG_0259   0x00025e    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+          _MAIN_PROG_025C   0x000261    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+             Random_Delay   0x000262    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_L   0x000266    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Delay_X   0x000268    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+              RecordBegin   0x000700    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+               RecordType   0x000702    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 Message1   0x000703    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status1   0x00070f    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status2   0x00071b    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status3   0x000727    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status4   0x000733    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status5   0x00073f    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status6   0x00074b    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  Status7   0x000757    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                RecordEnd   0x000763    program     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                       d1   0x000020       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                       d2   0x000021       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                      rd1   0x000022       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                     led1   0x000023       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                     led2   0x000024       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                  packets   0x000025       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+                 statusid   0x000026       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+               MessageRam   0x000070       data     static C:\Users\LAB\Dropbox\Transponder\Trasponder.X\RCHourglassT_main.asm
+
+
